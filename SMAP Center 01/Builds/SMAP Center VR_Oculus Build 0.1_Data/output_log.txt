@@ -1,0 +1,136 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     8144 MB
+    Driver:   21.20.16.4534
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+- Completed reload, in  0.200 seconds
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\SMAP Center 01\Builds\SMAP Center VR_Oculus Build 0.1_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on OVRScreenFade
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Overlay is using an unsupported compressed pixel format.UnloadTime: 1.093924 ms
+Unity v5.5.0f3, Oculus Utilities v1.10.0, OVRPlugin v1.10.0, SDK v1.10.2.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: a74 -> priority: 1 
+  Thread -> id: ba0 -> priority: 1 
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+timer reset
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Both hands are full!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hand is already full! Switching hands...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at HandScript.holdObj (UnityEngine.GameObject thing) [0x00000] in <filename unknown>:0 
+  at HandScript.holdObj (UnityEngine.GameObject thing) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[UnityEngine.GameObject].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[UnityEngine.GameObject].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerDownHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.ExecuteEvents:ExecuteHierarchy(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+UnityEngine.EventSystems.OVRInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Both hands are full!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at HandScript.dropObj () [0x00000] in <filename unknown>:0 
+  at HandScript.holdObj (UnityEngine.GameObject thing) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[UnityEngine.GameObject].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[UnityEngine.GameObject].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerDownHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.ExecuteEvents:ExecuteHierarchy(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+UnityEngine.EventSystems.OVRInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Both hands are full!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hand is already full! Switching hands...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hand is already full! Switching hands...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
