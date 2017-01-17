@@ -1,0 +1,13 @@
+1. First show students a circuit diagram
+	-Explain the concept of open and closed circuits
+	-Have them complete the circuit
+2. Real world example:
+	-Squishy circuits
+3. Real world example 2:
+	-Explain a bread board
+	-Create a circuit from scratch using a breadboard
+4. Arduino Conept
+	-Explain what a micro controller is.
+	-Have the students wire up a single LED to an arduino using breadboard
+	-Breif explanation of programming
+	-Pin turns on, turns off, you wire the circuit.

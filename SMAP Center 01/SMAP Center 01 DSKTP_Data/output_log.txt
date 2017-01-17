@@ -1,0 +1,36 @@
+Mono path[0] = 'D:/SMAP Center 01/SMAP Center 01 DSKTP_Data/Managed'
+Mono path[1] = 'D:/SMAP Center 01/SMAP Center 01 DSKTP_Data/Mono'
+Mono config path = 'D:/SMAP Center 01/SMAP Center 01 DSKTP_Data/Mono/etc'
+PlayerConnection initialized from D:/SMAP Center 01/SMAP Center 01 DSKTP_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55479
+Multi-casting "[IP] 10.1.125.28 [Port] 55479 [Flags] 2 [Guid] 1508581991 [EditorId] 4043003810 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-GU4P65E) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.1.125.28:55479]
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.465 seconds
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\SMAP Center 01\SMAP Center 01 DSKTP_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.058368 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 11ac -> priority: 1 
+  Thread -> id: 1820 -> priority: 1 
